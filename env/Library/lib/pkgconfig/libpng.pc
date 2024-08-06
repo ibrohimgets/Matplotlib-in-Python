@@ -1,0 +1,12 @@
+prefix=E:/coding/ml/matplot/env/Library
+exec_prefix=E:/coding/ml/matplot/env/Library
+libdir=E:/coding/ml/matplot/env/Library/lib
+includedir=E:/coding/ml/matplot/env/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.39
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz
+Cflags: -I${includedir}
